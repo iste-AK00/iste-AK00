@@ -11573,23 +11573,6 @@
       "locked": false,
       "visible": true,
       "zIndex": 4
-    },
-    {
-      "instanceId": "widget_1788195679502",
-      "widgetId": "profile-trophy",
-      "name": "Profile-trophy Widget",
-      "position": {
-        "x": 0,
-        "y": 898
-      },
-      "size": {
-        "width": 800,
-        "height": 200
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 5
     }
   ],
   "globalStyles": {
