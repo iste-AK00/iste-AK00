@@ -1,6 +1,6 @@
 <a href="https://gitascii.com">
   <img
-    src="https://gitascii.com/api/iste-AK00?v=1788196046730"
+    src="https://gitascii.com/api/iste-AK00?v=1788196099407"
     alt="GitAscii Widget"
     width="100%"
   />
