@@ -2,33 +2,11 @@
   "username": "iste-AK00",
   "widgets": [
     {
-      "widgetId": "header",
-      "name": "Header Widget",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 800,
-        "height": 90
-      },
-      "config": {
-        "animationType": "typewriter",
-        "animationPreviewKey": 2,
-        "accentColor": "#00ffff",
-        "backgroundColor": "#060606"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 1,
-      "instanceId": "widget_1788194418528_0"
-    },
-    {
       "widgetId": "ascii-art",
       "name": "Ascii-art Widget",
       "position": {
         "x": 0,
-        "y": 106
+        "y": 328
       },
       "size": {
         "width": 280,
@@ -42,81 +20,81 @@
         "lockAspectRatio": true,
         "rows": 75,
         "asciiText": [
-          "II}CC}CCiiF|77|fx9Km8RRR8RR#$$#BBBBBB#$$B$B#RmXbV4dh6h9dd4pUHm8mmmRD#DRHUbdEo}7JJi[aqkq64phj1|JJJJ)vvvTTTLss?s??????s??sss???s??s??z?T|C{7Lzzzzzzzzz//",
-          "7??s??s/zzzzzLvCejyxYYZ555xxjjxxjjxxxxxxxxxjjxYxxjyyyyjxx55xxjxxYYxjyjjjxajofv/*/J1ut3It[uZnCT*ccc**/**/c*c*ccccccccc**cr!c/*cccc*////vvv)?r<<+<++++!?",
-          "7c*zs?z?zzz??TJ{nxyjxYYYYYyaa]]]aaajjjyaESSSE22yaaa]aaaaYo55xxxxYxaEqPPqS2Z{L*r*T{lnu1Iln[Zn}T*cc*/sv|C}}}f}CF(vLsTv)J7JvvJiC{iif1u[u3}F|iF)?crc*c*c*T",
-          "7**z????zz?z//z([jajYxxaSwP6h9hhh6S]jjawP666PPkkwwwqSSE2yYYxjjxyjjyy]]axe3(z<>s}ZayYnlItn[Zn}v///z?|tYwkkkkqwao3C}1uoZ55[uZ2PPqPdObbp6Y1}t[t{L??LLs?L|",
-          "7**zLTTLszzz*c/|eyyjYjyyayyayyjjxjyyYYajZn[uut13f}CC}}ftZxyjyjxjyyxnI|||(||)?sIykkSaY[3lnuZnIJss??vI52kP66k2ajYZ5aSkwwSSax]P94VVV4dh66y1CI11f7J7((JvJI",
-          "(vTvJ((7JvTs//?|nyaj5a]YlF77777JJC5]yy]5})LLTsLTJ((JT?T}Ya]ajjjyjyje}vL(FF{FJ(lyE]jjxett[[Zo3(sss?vIZ]2yxyEwEynl5jxYxYxYouYEqwSSqPkkqqj1{I33}7)J)JJv)[",
-          "ee1CFFF|(7J)s?LFnjyyYyaxl)/c*c**zFoayx]5fL***?vFCCCF(TT}Y]2yjxjjjyyof))F{i{i((1jEajjjottnnZotFL??sv}Zaa]Sqq]onZaSPh9h66kqwk4bKKXHmmHXGSn3[oZ[}ii{{F((i",
-          "4251F(||7)))s?s|lxyx5j2xt)/*c*cc/|njjYaZfTc*/?)F{{{i7TvfY]]jjxjxjaaZIJJiC{Ci((tx2yxyjZutnoZZli7)777fnxEkPqa177FI1u[utt113f3leZ555YYY5eICiCI}7szzzz///?",
-          "AY5tF77J))vTLz?|uxyjYjaxl7szzz??s|nxj5aof)LLTJF}f}}CiFFI5]2]yjjjy2aju}Cf3fC{||tyPVOV4hSEwhhE5f{Fi|}I1ex5[3iL/cccccr!!!+<<;><+!!!+!!!!+*7i7Fv!;;>>>>><*",
-          "OY51|vT)LLLLLz?FuYxx5jyxe1I311t13tojx5yYe[nnneZ5ZZZ5xxjy]aayjxjjyaaa]22]Yluulte]q6Pqae3}ftl1}{{{{1o5xxZ1{7T/!+<<<++!rccccrr!!!++!+++++c)|)|vc>>;;;>>>*",
-          "6xnf7)JJTLLLL?sFl5jx5Yxa]SqqqkkqSEjjxY]SqPkkkwwwwwSwqkPkSajjyyjxxxyaajS9VPZ{JTvJJvsLz!>;;>+<+rrr*s7|(7)))vs*!<!cz?sLTTszcr!+++<++<<<<<cvFJi(*<>>>;;;=r",
-          "euf(77J)vTTvL?s7lYxx55xa2SwwqSSEE2yYYjy]E22]2]a]]a]]]]]ajjxyjjjyy6U8R89yn}Tc<+<<>>+;^;===,^;;=^,^=;==><!+++rc*zzss???Lszcr!!!rr!r!!!!+cT|7F|z<<>>>><<*",
-          "{vLLvJJ)TTLs?zzJtxyyYYY5xYxYxjxxY55ZxjjjjxxYYYxjjxyxjjyyjyyxYxjSXHhx[fvr+>>;>;,^^=;,:____:,__,,,_:_:_^=;=;>++r/?Tsz?zrc?vv)7(i{{iF(77JJJ(F|i7Ls?sssLLs",
-          "iTv)(7JJ)v)7(iCf[xjjxxjjy]ESSSS]]aa]2wqqwwwEEESqqqwqkkqkkqSS2E9mPfs<,__::'':::..----...-.--..---------'':_^==;>r/z*+/7fuoZ5ywP6kw]jZen[u1II13333313III",
-          "uC}fff}fff331uuuuZyESwwqkkkqS22aa22SwkqwwwwwwSEEwwwqSEwSSSS2]kkuc,''....```.`````` ` ```` ````...``  ````..-':_=<c/s(1n55Yxy2ajxy5ouI}f}CC}{ii{{C}f}}x",
-          "YC{Ci{i{}}CC}CCfIueeoo55o[1}i(|Fi{C}C{{CC{{CC{i{C}}}C{{i{i{{CI7;-..```` `` ` ` ` ``..`.`.``` ` ` `````````````.-_>cvft1nZZYySkkw]Zl{|FFiC{iF(JJ7(FiC}5",
-          "xI3IfIIII333I3fIfCC{FF(JTL)|{C{{iF|7|FF|FFFFFFF|7JJJJJ77777(C}z_.`` `  ` `...--':^>>>>;;=,:-.```````...`....-...-:,<vf}FFi{{CC{(vT(flneoooZonulu[neo5P",
-          "6555YYYYYYxx5YxxY5oenltICiiffIIIfC{i{{C}{{iiiFiFFF(((|||||Fi}et?,..```.-_=+cz?LvJiC}fI}}Fvc^'-..````.`...-.------'_=r|1f}C{i||(7JF}1uneeeoeoZZeeeZZ55O",
-          "OoooZoZZZooeeeneenullt3f{FiC}}CCCi{}CCCC{iF||||iii{iFiFiiiF{f[ayIz>,>>!s7if1unooennnoZ5etf|?>_'-.````.`...--.-''-'-_+vtu}}C{|(7J7F}1u[nneoZ5Z5ZoZ5Y55K",
-          "beooeoeeeennnn[[nnul1t3fiFiC{{CCiCfI3ICC{{iiiii{{{{C{{{{{{C{ItZSd2uft1tnn[ltICC{{iFi{CCIf|?c!>,:'-...`..-`-'-''':::',/3eC}C{|7J)JFf3lnneeoZZoooZZZZZZm",
-          "Ueeneeenee[nnnen[[[utl1fC|{C{{{i{{}IffC{{{{ii{{{{{i{{{{{{{{iIu[[ZwqSxZufiFFFiFFFiiFi{{I}(?/c<=,,_,:'--...-----'':':_,>|Z}Ci(J)v)7i}3lnooooZooeooZZ5YYX",
-          "AooooZZZZeooZoeeenn[uutf{i{C}}{{{{}If}}i{{iiiii{ii{Ci{{{i{i{3luuuunn3Ci||(77JJJ77|(F{ii7Tz!>;=_:_,_:''-..----.''---__^/}I|7J))vT)|Cft[oeneenn[[nn[[neO",
-          "O5ZZ55oooo5ZZZ55Zon[ltI}i|}ffIfCiC{}CC{{iFFiiiii{{i{{iiiiiFC3tllto[fiFFi{CC{iF|77777777777Lr=^=,_,_:'---..---.--'__`_=/C}((((7J)J7|C1[eenneeeeeennnnnV",
-          "huuult111t111t1t13f}{i|(7(C33IIf{{C{{CC{FFFFFFFiiiiiiiiiii{C3u[uelIf{i{}fftueZZoeu}7F(7|ii{i7?+>=_^_'-'''---'^+*!;=,-^/31C{{F||(J7|C1e5Z5xxxjYYYxYxxYU",
-          "httlllululuuttt1IfIIf}{i(|f333I}{iiCC{{iiFFFi{C{CC{ii{F{ii{}3uuulll1IC1oyy5l}(vTvFlnlCF|||C31t{?+;:_,'--':_+zT|||vs+=<7uI{{{ii|(J(|C3[555YY5YxxYxYjxxm",
-          "4nneeoooeoe[[[[uult113fC{F}311tfCi{ii{i{CCCf}}}CCCCC{iFiii{fl[[e22jouunliL*;':,,,^rTCltCF(((|i3F?!;^,_,<rc?i)ss)|Cf7*>)[I{{iiFF|7(|{IuoZ5xxjjxjxjjyyxR",
-          "GeoooZZZZZoeneeennuult3fCiftuuul3f}C{CI333I3If}C{C{iFii{CC}3lnZPSZ[[IiL<'-:^=^;==<!r+/)ii(777(}iT?c!;<viFJTTssf1t|v}L<sulf}CCiFF((F{IuZjy]]ESwwwSSqwwU",
-          "U55Z5Z5Z555ooeeeeen[llt3}CI[ennutt133tllll113I}C}C}}33113IC1ej25z,^rL**/+>,_'.'^!!/L7iiJJ(7|||{CJLz!+)lf{LTc<JfIiC(3J=7xtI}}C{Fi|(FC3[Zxya22SEEE]2EEEx",
-          "H5YxYYxY5555oooeeeenuultI}toonnn[[[nnn[[[[lt111tttttttll113f311)zr+==ziivzc<<*/?sJi1l3}iiiiFFF|i|szrziI7CC>*//s{fiFl/c1yt33If}{FF(7J(|FFi{{CCC{iii{ii?",
-          "m55Z5555555Zoooee[nenllt3Ctnennulu[[uulltluut3tluuut13331tl1iL*c!=_^Jxntfiii|vTJfoelIiC{{ii|FiC}(?r!T{|(7F)sFF|7(FuJ<)Yjltt13I}{{iJ?!><<<<<><<>>;;;>;>",
-          "HoZ5555555ZZeooeennnnult1f3[[n[[u[uuululuulllt3tl[[[13III3lnl|c>+T)|2jl1l1ff}Cf313}}f}C}{CCC}}{F)?*!){7(7z7I13{)(1J_*CjZl11313fC{i7Tc+>>;;=;==;;;;>;>+",
-          "m5Z5ZYYYY5Y5ZZoonnen[u[t1fIt[[lttu[[uullu[n[l13t[[neu31t311nn{z=<TCe]313}CC(J)Ffl[lult1t133If{F)T/r/){(Fv)){}CCt1T_^+|YYl1113fC{Ci7sr++++++<+++++<+!+*",
-          "m55YYY5Y5ZZooZooenn[[uut11II1l1331llul1I}I331tllneeZeut1t13[[Cs;zZ515j2S]jo3)TLsvifII}CCCFFi|)T/rc+!T{F?JiiCC{|}|c^'<755tt3I}CCi{i(T*+<+!!r!!!+++!!!!?",
-          "XZoooZeenn[[[uulu[[n[uult13I3IC}C}}f}}fteZooZZoounZoufCC}IItuCs,Jlt[t1C7JJ7)))Ls???v7JTTsz/*cc!<><<<*J)Js/zvJ||{f7c^+IYt3f}CC{iFi{i7sr++!!!r!rrr!r!rrL",
-          "Aoeoeoe[nn[[nn[[l[[eennn[l13I}iF||||FClnZ55YxxxYx5n1C{CCCCf1lCs^sFi)vz;>;;=^>+!*cr>;+/r!+>__=;;;><>>*v(J|F(J|(|F{i|z?eoIff}}CCC{i{{|v/!!crrccccccrrccv",
-          "AESSEEEEEEEE22axZ[ultll13If}{{F||||(((IeywP666kSjnI{{C}}C}f11Cs;r7Tr+=*vF3CiJL?++,^^:>r!;_.'_,^^^^=>!?7|(||(J7(||FiivnZooeeenn[ul3}|)zczzcc/zz?s??z??T",
-          "YPqkkqqqwqwSE2yZl}{}fC}CCF|FFF||||F||(J|CffII}}}{|Fiiiii{C{fIF?;,r*!:*/it3C3I(JT7vvsc><<=:-'':_,,^==</v((7v))77(7(FCFvnen[nnoe[ulIivz*sLL?**/z//*****+",
-          "=(777JJJ))vTTT)|}Itt13IfC{iii{i||||F||ii7s+,_^rJ{C}CC{C{ii{fC(z;:',;=,)n3tL^'<?v)(JLc=>>=:--'''':^,,;rs7(F7JJJ77|i11f1vc**r+<cccr/????T)JJ?+^,,,,,,_,'",
-          "':::_::'''-''=sfuu1II3If}{{iiF||FF||Fi{}}Fv??svi}}}CCC{{{{{}}(z=::::,,,*rs}II}|Jvv)T+;><^:''--.---'_^>*?LT7JJ7(itliJ7L>;==<rz=.-_rLvT?Lv)(L+:---..--.:",
-          "'-------..-.-^L3nt3III}CCF||FiFiii{{{{ii}31tttttIf}CC{{{CCCfC(z;:''::,c{ICCCCF()Tsvz;=+>^:-..`.```..:^+cc/TJ(f13J*;^=><;>><rc*^-_cvJvLTJ7|v!:....----'",
-          "'----'---..-'^T3eu333f}Ci((iCC{iii{i{ii{CIluuul1f}C}}}CCCC}If(z=::''':;z7T/<;>*?L)Tc>^^^_'-`..` ```.:;></LL}I|?!'.-:_::'::^>!!c^_c7|7)v77iJr_..-..---:",
-          "'-'-'------''=T3nl333I}C{F|{CC{Fi{{{{iiiiCCC}CCCCCC}f}}{C{CII|?>^_::'':<rr^;c**Lvs+>,:-...`````  `._=;+z/JiTr,.```-:,,_,^^^=>+;+;/(F)JTJ(i7*_.---.---:",
-          "'-'':'''-'=<+<T1eu31IIfCCF|CCCC{ii{ii{{ii{{CCCCCCCCCCCCCC{Cf}i|(Js!=::_>zr<;+***+^'-.````` `  ``-'_=;+rsT*<'``` ``.-':':_',^^^;>!/){f{)J7{(*,--------:",
-          "'':_::''';?7(v71ol33II3ICF|C}CC{iF((|{iiii{{{C{{{iiC{i{{CCi}toy]j1(c^::_=<=___,:..``      ``.-''_^^;>rc>,-`` ``.--''',==^;>>><>;=</Ls)C3}C|z^-'-.----:",
-          "''::::''_c7{C(F1nl133Iff}i|CCCC{Fiii{}}f}Ci|Fi{i{}fIIfCiiFf3[xa2]o}?;:':__'-.`.---'-:,>,'--':_^^=^^<>^'````.':_^=>+++>^,,__,,,_^>>+c!ccs}f|z=''------:",
-          ":''::'-'_cJFvT(1n13I33IfCF|C}{C{iFi{}fffI3}}{iFC{C}}CC}}}}f3[nnoxo}s=::_^><=,__,^^^^>*Ts+^^^;=^^,>=_.` `.'_^;>>;<rr++!!rrrcrrr!r+>;==>!+c/!r!<;^:''::,",
-          ":----'''_!JFvL|3[t3II3I}{||C}C{{iFFi}ffIIIIII}}CCCCCC}fIf}{Iueno5ZI?;_,,^=;>=,,,,,,^;r*?sr;^,,^>;_.` ``',;>;,^^^=>><>+!cc**/*rr!+;<!!!+>>r!</zz*+>;>;^",
-          ":---'---_!)|vL(3[lt11If}}|FCCC{iF{}II3IfIffIf}}CCCCCf}f}f}CIlnoZZ[CL<;;;><<<>;;>>><<+c*zLL!^^=;_- ` .-,^,_^====,=^,__,,,^^=><<+!<><+!+!!+!!!r+!r*zz*rc",
-          ":'----'-_r)|TL)3nl113IIfCF|{C{C{CfI1113333IIII{CC}}fIII3IfC}II3I3I|z<>><<++<>>>>><<+!c/z/TL+^,'` ` .:,_:,^,_:':'',^,__,,___::__,,=;;;;=;+r+<+<><!//zc*",
-          ":_____::_!)(TTv}n[ltt33f}iFCCC{{}fI131311t13ff}}CCC}}}fff}}Itll[el{L<^,,=;==^_______,+/s/L)s;- ```.:':,:'......'':_,;;=,^::__,_,,^,,=;=>=^;+!!r!>!z///",
-          ";)))J7JJJ|CC{{|i3t13IIf}{||{}C{iCfI11ttt113ff}{iFFiFF|FiiF{ftltu[t}F(J))))J((|||Fi{CffIFFF*=.````----'.-'::'-..```..'_=<;;^_-_==_^^^,;<<!r!=>rc+<<+*/L",
-          "nqqkkqqqwS]jYZeu33ffffC{i7JiC{i{iFF{C}}f}f}C{i{{iiFFFFF||FC1t131tuZaEwwkkkPPhdd99V4Vddhqi>`````.`.---.''''''':':::''''-'^<;<<=:',_:,:^>!!!<r!;+r!+>,,;",
-          "AqqqqwqqwE]jj55eu1IIIffC{|7F{{{iFi{{{iFFiFi{C{{{{ii|F||FFCI3tll[eZxj]ESwqP6666666h6PPk6Xx+. ` ``.'-.-'''--'::::_:_::::_:'_=!<><<::'-::,=<rc!+c<><+=+!>",
-          "XoZZZZZoooene[ult133I}}CF(7|iiFFiii{{CCiFi{CC{{{{F|F|FFiiCftlltllu[[eo55YYxjyyjyaya]]]y6gduc'.`.---'-''`.-.-.--------'''-.'_=>;,^,^__--':,<c**+<+c<>>c",
-          "UoooooZZooe[null1IIf}{{i|77|C}}}{iF{{C}}C{{{{{C{iFFF||F|FCItlttl[[neoZ5Z55xjjjjjjyyaa]aySm@G[c.'''':'-`...`````.````   ``````---'_^;=,:.-':^<cc+++!;<z",
-          "beennn[[[nulutt13I}{iFi|(77{fIffCCii{{{{C{i{{{{ii{iF{ii{Cf1uttlu[neeo5YYjya]]]]]]22EEE]]]]yV8ar-'::-``````.....-.-....` `   ` ````-:^,_:'..'_=!rrr+>^r",
-          "V[[uulttlt13333IIIIf}}{iF((ifI}fC{F{{{{{CC{{CCC{C}II333II3tltttlu[eoZ5Y5Y5555YxYxxxYY5555ZZ5qa/':'`````````.......---...```` ` ```` `':_''.-''_=<*z+;<",
-          "dttlttttt1t1t1t3I3If}C{{i||{}Cf}{{C}f}CC}C{CCCCCI311I1t1If1lllt11ttuulttlu[[[u[[[[[[u[uuuuu2dF_:'`  ````.````...-----------..```  ``` `.''---..-',<r=<",
-          "dlu[[uullt1t31ttII3333}{F||{C{{i{{CC}ff}C{{{CCC}f1tu[u[l3IfII1ttlun[[nnnoZZ555oZooZooZoon[5G[>''.` ` `.``````````...----'--...-''-.```.``..`.``` `-;><",
-          "Vu1fIlulllttt31ll3I}i7(||(F{}{C{CC|vJi}CCCCCCCC}}ff}Fv){}}Cf1lllunnn[nnnooZYxY55YYYYYxxx5xbj!'-.` ` ```` `` ` ` ``` ``.....`.'_____:''''` `` `   `.^>+",
-          "Oe[ll[[[ullt1t11lt3I}}Cii|F{}I3I}CF(7|{{{C{CCC{iFFF|7JJ|CC}3uZy]ESqqwqqkP6h666hhhhh6666kkPk)_--```  ``` `````` `` `` ` ` ``.--'_,__::-'''`  ` ` ``-^==",
-          "beZYZe[uutlll11t1t1tt1IfCiFFF{F7)vv))TTTTv)JJ77((77)))LssLLv7{3[eeooeeeeeeee[[[uultt1IIfI1)^..```    ````````` ` ` `````````....-'':''''--`     ``'==;",
-          "Aoeen[[l[ulllt111t1133f}C{iiFFF||FFFFiCC{CCC}f3333I3IIf}iF|F|JLcrr!rrr!r!ccrr!++++<<<+++z/;'` ` ` ` ` ````` ` ``````````    `      ```.-'--  ` ` .:;=<",
-          "Aeeeen[[[[[uuultt1t111If{{iF{{{F||FFii{ii{C{{CCC}fII333ICFi{C{(s***/*//*/**//zz?z???zzzLz;'`` ```    ```` ````` ```````````` ````````` ``-.`    ``';<>",
-          "Kooooennuu[[uuulltll111I}CFF{{i|((|||FFi{C}}CCfI31113113IC{iCC(sc*//////z/*//???ssss??svr'.``  ` `  `  ``````````               ```...` ` ` ` ` ``.','",
-          "KZZoeee[n[[[u[[[ullut11I}{iFiii((|F|((F{{CC}}}fIIIII33113fC{ff|Lcr!r!rrrrrrrrrccr*crrrr*='.. `   `    ` ``` ```` ` ``` `````...`````..-```      ``...-",
-          "beeeeennenn[[[[[uuult113f}i|FFF||F|FF{}f311t1t1113IfI3I31fC{ffis+===;==;><!!!+>>><<+++c!_..`  ` `  `   ` `````  ``` ````.`..``..`````...``  ` ` ``..--",
-          "G[[[u[ulltlltlttltlt1313}}CiFiiF||FFiiCIt[oooooooe[t331t1I{i{C(T*rrrccc**/////***/////zs=`       `   ` `````  ` ``````..`.`.`.`......- ..`       `..-.",
-          "UZZZZoooeeeeeeen[uttl11IIfCiiCCCiF|FiF{3n5xxjyyyyj5[tIIfCF||ii7Lc!!+!cc*/*/zzzzzz/z////Tz_` ` `   `    ``` ```````.``` ```..'---::'':::.``` ` ` `  ` `",
-          "666PPP6PPPPkkkw]xn3fff}}}{FFCf3Iff}fC{iFIejSqkqq2xetfC{{F||(Fi7Lz/**rc*z?s?s?ssLLLLs/**sz=.`    `   ` `.````````.`.```.`.`` `.-:_::'-::_--`    ` `````",
-          "sulululluulttt13f{Cf3131I}C}It11IIIII}CF((|JJ)vv7(|i{{i{iF|Fii(L!<><!+!*//z/zz?z???zz*/T/_-``  `  `   `..`````` ```...`.....--. .''::''::-` `  ```````",
-          ":,,,^,_'_=;>>>r)f1tltt113}{f113133IIIffC}fC)+^^+v{}f}CCC{i||{{(L<,_=+<++^=+<+<=,,,=!zssvJ+-.        ` `.` `    ````````.`..''-'':'.`-_::'-.         ` ",
-          "Fuu[ul3|s>:--'<J1ultt3t13f{f313I31III}}}C}3fC{i{}I3IfIf}CiF|{{(L+^,;++++^,<+<<^::',+?Lss|s,.`` ` `   ````     `` `       ```--':::_:'.-'':-`     ` ` `",
-          "]oeeen[3|c,--'<7tul13313I}{CI3IIII3I333Iff1leZZZnut33IIfCiF|{{|T!=^;+!+!;,+<+<^:':,rsv({fC+-.`     `   ` `   ```   ` ``````` ``.'__:'':::__-  ` ` ` ``",
-          "ESE22ajlJ>:---_/t]P6h9kw2yxx]SkkkkPPPPPwSE2]EESSSwkkqwSE]yxxYnf)r+++*??c;=<*c+^,,,=!vfY2]t_.` ` ` `  ` `     `` `` `````````````````.:^>>;^'`     ` ``"
+          "J)TLLTTL???/cc/)lSOKXXHXHXm8RRRD####DRRDDDD8mKb4PkwE2Ewwwk6VUKKKKKX88mHUV4w5fTcrr?{njyj2k6Eu(/rrcr!!+++<<>>;;;;;;;;;;;;;>;;;;;;;;;;=;</Ls*>========^^^",
+          "c!!!!!!<<+<<+c/7lxjY5Zoooo5xxxxYYxYYYYYYYYYxYY5ZYxjyjxxYYoo5YYYYZ55YjxxxYyxu|*<;<?C3IC{I11et(*;;=;;;>>>>;;;;;==;===;=;;==^=>;;==;>>>>>////!^_____,,,^;",
+          "c;;+!+++++<+!cz7tYjx55Z55Zjya]a]aayjxxjyESwwE2]yyyayayayZnZZ5YYYZYaEk66kS]uJr;=;*7Il3}iIltet|*>=;;>r/T7|||||()s/rrc*z?s?/*?J(7)JF}313{()TJT/+===;;;;;<",
+          "c;><!+!+<+++><+L1xyx55YyEw6h9d999hSaxYaw6h666PkqwwwwEE2]x5ZYxxYjxYjjayj5lCL<_:!([jjZl3iIltet|*>><<!T}ZSqkkkwEx[{7|C1u[ee13[akkwk4OAAO6Z}|}1}Jc+!cr!!rz",
+          "*;;<c**cr+<<>=<TlxjYZxjyjjxxxxYY55jx55yxnt113f}{i|(|||FfeYxjjYYxjj5livTvTLT/+!FYkPSyZlC3l1elisrr!+/ie]k6hhk2yxZnejEkwSSEj5aPVOOGGOV49hj}7{}}|s?ssL?/zJ",
+          "*/*/?LLsz/*!<>!TtjyxZy]Zfvsssssz?(e]jjaeF/cccrr*?TL?*!*|oaayxxxjxjYu|*cLv)7vzLIxEajxYufftteuCL!!!!/inaEjYyEwExl3oxYZY555n1ZEkwSwk66Pkkx}7{CC|sz????*zi",
+          "}l}(vvvvLs?/r+cvtYyj5ja5f?>;;;;>+vuyjYaeFc;;>+/v7(()sc*|Z]]yxYxxxyjnFzzvJJJJLL}YEyYxxnIfllen}vc!!r*|eya]Skkau1nx2k696PPqSEq4AHm8RD#R8b2t{tu[3(v)))TLss",
+          "kaoCvTvTszzzr+rT35jYZx]5}z<;;;;=<TtxxZan|*;;>!z)7J7)L*/Fo]ajYYxYxajei??J(((JLLfY]yYjYe3Il[enIJsz?sLFl5EP6wxCs?viCI3I}}C{iFifl[nneeeeeti7J({(?!+<+<<><=",
+          "p5of)ss?zz/*r+!T35yYZYy5Is!++++!!Tt5Yoyn|zrc*?v(i|||))v{oa2ajxxxy]aY3F(iCF(JTTfxhObOV62yEPP]nF)))v|i}uZo1{)c>=;=;=;^^^,,_::_,^^^,^^^^,;?)sv*^':'::::_,",
+          "9Ze}T*//crccr+!v3ZY5Zxy5u}i{CC}}{fnYYZjZutttluneeeeeZ5Yx]yayxYxxjyyya]]yZI3I}CtYEqq2YtF(|Cf{7J)vJitueeu{Jsc<^,____,,^====^^^,,,,,,_,_,;/TzT/=_':'':::,",
+          "25lFLz??*cccr!!vIoYYoZYy]EwwqkkwS]xYYZaSqPkkqwwqqSSqkPPPSaxxjjxYYYyaaYE9Vqu)?*/?z/cr<^:'':,__^^^;+?Ls?z/*c!=,_^=<+!rccr<=^^,,___,__:__=*vsvs>_:::'''':",
+          "}IFL?s?z/c**r!!LfZY5ZoYy2SqqqwSEE2j5Zxy]E22]2]aa]a]]a]]axxYxxxjjjhXRRmPZ37r^_:'''::'.-.....---...----::,_,,^=;<+!!!+!r!<;=^,^^^^^^,^,,=*TsvL+_:::::__,",
+          "szcc/s?z*ccr!+<?f5jjZZZZ5555YxY5ZZoe5xxxxYYZ5ZYYxYjYxxjjxjjY55xS8Hqe3Fc^:''---..`.-` ````` ``````` ` `...-'__,>+c!++<;=!*/z?TJ7JJvTss???Lvv)?rr!!rrrr>",
+          "?**zLs??z/zsL)7i1YxxYxYxy]ESwSS]aayaEqkkqwwS2ESkkqqkPPkPPkSS2EdH27+'``` `  ``                         ` ```..-',;<;,<?|3u[eYEkPqSjZ[lt3IC{{C{iii{iiFFJ",
+          "i((FFF|FFF{{C3133nj2SwwkkkqqE]ajya]EwqqSSwwSSE22SwSqEESEEEE]aqEC^``                                          ` .'^>!LCleoo5j]yj5xZ[3iFFF((|7J)77(|F||l",
+          "t(777JJ7||(||((F{3u[[nee[1}F)Tvv77||((7|(77(|7J7||F|(7(J77(J(F/-                                                `'^c(}}tneZxSqkSa[I(vvvJ77J)L?ssLvJ||3",
+          "l{{{ii{{{C{C{Ciii|(7)vLs*r?T7777JvTLTvvvv)))v))Ts?????sssssL(7>`               ``-::::'''``                       .:c|())J77|(7T/*LFfl[n[nn[l3I3tlune]",
+          "]eooZZZZoZY5oZ55Zo[ut3fi(JJ|ii{iF(JJ77(((JJJ)))))vTLTTvTTvvJ|tF>.       `'_^><!ccsTvJJ))?r^.                      `-^LCFF(7)vvL??v|}1luuu[[nee[uuneoo9",
+          "9nn[eneeen[[uuuu[l13IICFJ)J(|||((77|((|(7JvTvTv)JJJJ))))J))7i1Ye7>'-::^<*sJ|C}I31311l[utC(?>'`                   ` `_r}3|((JvLs?Lv|}3tll[nnoeeeneoZZoO",
+          "4[[nu[[[uullulttll13}fCF7vJ(7(7()(F{Ci(7(JJJJJJ7777(J77777(7{fnE6Y{JF(FfIIfCi((77J))7(({|L!=,-``               ` ```.;Fl(F|7Tss/?)FCIluu[nene[neeeneeA",
+          "4[uuu[uluullllullt13II}i7T7(7J77J(|iFF((J77J)7J777J77777777J{1tteESaouIFJ)v)J)v))))J77i|L!>=:-.```              ` ```:LuF7)Ls//zs)|CIlnn[[en[[[[eeo55b",
+          "p[nnnnoee[[ne[[[ullt33fi7)7|||77J(|i{F|J77JJ)JJJJJ7(JJ7JJ7JJ{I1311llC(JvTLss???ssTTvJJ)sc<,:'-.``.``                ..>7iTL?zz**zT(ift[uuu[llttllttluh",
+          "9oeeoon[nneeeooon[u13f{(Jv|iiii(J7(|((77Jv))JJJJ77J77JJJJJ)(CII3I[tFJ)vJ7((7))TLsLsssssss?r^'--..```            ```  ->)(LLLLssz?sv(}t[uul[[[[uuuulul6",
+          "E1333IC}}I}}}}f}fCF|()vTsT({{{{F77(77((J))v)vv)J))J)JJJJJ)J|{3t3uI{F7JJFFi}3ttt33f(LvTLv)JJvz+,:-..``       `-,>,'-` .>FC(77vvTLssv(}uoeo5YYYZ555555ZV",
+          "SfIII3331313IIf}{i{iF|7)Lv|CC{{|7JJ((7JJJvv)J7(7((7JJJ)JJJ7|C11313I}i(}lon1iv?z*/TC1f7vvTT7{C{v<_'``.    ``,>!z??c!_-:zI{777J)vL?LT(CteZo5ZZ555ZY5xYYA",
+          "kllu[[n[[[utttt11Iff}CF(7)FCf}fi(JJJJJ77(((FF||(((|77J))JJJFItt[aa5[3I3{Lc>_.`...-^*7f}(vTLLTJiT+,'-.`._^=<sc+rzTJ7z='zIi77J))vTLLvJ{1[ooY5YYxYYxxjxYH",
+          "9[[nneeenenulu[lll13II{F|JFf311I{iF(7(i{CC{C{FF(7(7J))J(((F}3lekj1CCFvr_` `.-.---:^^,>/))LsLsT()c+^,':cLs/rc!rFC}v/(r_!IIF||(J))LL)7i1e5jy]ESqwwSSqwwp",
+          "Vooeoeooooonn[u[[ult3IfCF({tull1IfCCCII3IIfCC{|||(|FCCCCCi(}l5yl<'_=!;=;_-. . .-_^;cs))ssLLTTv77?r<,,*CF)cr;_z({)(Liz'?o}{F|(7))vLv7i3[ZYxya]]]ajj]]at",
+          "Uo55Y55ZooZon[[u[uul133fi|f[nlllttttlltttt3f}}}ffIfffIIIf}CF{}{z>=_--<)vc>=_'^=>+?){f{|)J))))vv)Tr<=>vis()_;>>rJF)vC<={Yf}{ii|7)vLs?sLTT))JJJJ)vv)))v;",
+          "KoooeZoZoooenn[[utuul13fC(fluul1I1tt133If313f}}I113ICCC}}fIC)r;=,--'/n1}(vTTs/cz|ltIi77(JJJT))(|L!^^c7TLLT/rvvTsL)C/_/eYIff}C{|J7)?+^_____:___:::''::-",
+          "Uneoooooooen[[n[ullul33f}FCttlt11t13133313I33fCI31t1fCi{{CIlfL;',+r?x5I}fCF(77|i}{|FF|(|7(|((|7vz+;^/JLL?<sFCi7zLF/.=75eIfC}C{i(J)sc=_:':''--''''':':'",
+          "Keeooo555ZZoeennulult11I}i{I1t3ff1t1t1I33ll13}{fttuu3}}}CC}lt)<'_c(tyCCCF|7T?zvF}1I33fC}}i{FFJv/c<^>?JLv/zzJF((}ir`-_LeZI}f}{i((()sr=__,___,_,_,__,,,,",
+          "KZoZZZZooeennnn[ulutt11I}Ci{}I}C{}I333}{|iCC}II3luueu3fff}}117+'<tn}e5jjonti/ccr/)(FF(7(JvLvszc>==,^c)v!?))7(7v(L=.`'z[oIfCiF(7JJJLc;,_,,^=,,,,,,,^,^=",
+          "Gennne[uulttt11311llt13If}C{{{|(||FF||ifuennnen[1uen3i((Fi{fI7+-z}f3C{JL??z**/r++++r/zcc+>===^^::::_;zz?!<+*sLv7|z^.,(of{i|((7J)J7)?!=_,^,,^^=^^^^,^=>",
+          "O[[[[[utulttllt13ttuullltIfCi|JvvvTv)(fueooZ5YY55elC(7(((|F}I7!.!vvzc>':::'-:,^;=,'':;^^_'``-'-''_::;*L?Tvs?TLTvJ)?>+1[iiF|||((7J77T/>^^======;;=====!",
+          "pEEEEE2E2222]]j5nt1IIIIfC{F|(J)vTTTLLTilYEqkkqSE5t{7((||(|iC}J!'^zr^,'=r?(Jvzr+,,---.',_'`  `..-.--:^+sLTTTLssLTTv)T*1[uuulltt1If{(v/<;<<;=><<+++<>+++",
+          "tEEE22]]aaayYxZnIFJ|F||(7vT)v)vTTvvvTL?v7F|((7((7vvJJJJJ77(FFT+'.,=,`^>)C{7(|s?czrr<,':_-    ```..--:;*LLs//?sLLsLv(v/313fI3IfCCi|v/+>!cc+>;;;=;=^=^='",
+          ".????zzz//*cc*/L(iff}{{i|JJJJJJvTvvvTv))s+_---^/J(||77(7JJ7F(s<'``.'.-*fi{!:.:<*/Lzr='::-`      ``.`'^!?Lvs???sLTJ{i(i*>>>;^=;;==>+++!c/?z<:.-....... ",
+          " `````` `  ` -+(33}{{CiFF77JJ)TTvvvT)J7|(Tc<>+*v(F|(((J77J7|(s>' ```.`.>=r77J)Ls//zr,':'.          ``'=!r*???sL)iiL/?r''-'_,=-  .,!/c!r/zs!_`         ",
+          "             -+FtIC{{i||7vTvv))JJJJ77JJJF{{C{CC}iFF((777|(||(s>'` ` `.=)i7)vvTs/crc<'-:'-`          `._==>c?L(|Jc;---::-'':^=^. `^cz/c*?sTc_`         ",
+          "             -riu3{CCF|(JTTJ((7)JJ7J7JJJ(iI33If}i|((|||(7(|{|L>'` ` ``->s*>,::;+c*r^'`.``            -':>cc)J/>,`   ``````-:^,,..^zT?z/?L)/,`         ",
+          "            `-!it3CCC{|(7)TJ((7)J7777J)JJ7((((|((((Fi||7(7(iiL<:..``  `_^,--=;;!r>:-`              `.-,<>*z+^.     ````....-'_::';sv?z*ss)?=`         ",
+          "   ``    `-:__r{u3CC{{i((vv(|((7)J7JJJ7JJ77(((((((|((((((((F()Ls/+,-```:;^:-'^^,:.                `.'_^><^_`        `` .``.---':,>z)|Jz?sJ?=.         ",
+          "  ````` `->/?c?Cu3CCiiCi(vv(|((7J)LTT7JJJ)777(777JJ77JJ7(7J|f[5jo{z^-```':..``.`                ``.''_::.          ` `---':::::'-_>rr/Ji|7L>.         ",
+          "  ``` ` `^zJJLTClI}CC{iF|JT(|((J))))7||F||)vvJ7J7(i{ii(J)JFCl5y]y[7+-` ````      ` ``.:.`   ```..-.-.-`     ```..':_::'........-::_=^=;r7(s<-         ",
+          "   ``   .^zv/*L}tfC{C{{F|vv((((JJ)J7|iFiiCF|(J)7((||((F|||FC1ul[5[(+'```.''.` ``````-^<;:``..-...-``     ``..---:,^__,,,^^^^^^,^_:'--:^_;<^^__:.` ````",
+          "      ` `,/T/cTCt}C{{Ci|7vT(|(77J))J|iii{i{{i|||(((((|Fii|({1uuno[F+-...--''-.`....-'^;+<,'....-.`      `.--..-.''_::_,,^^=;=^^,,'_^,^_::^,_>;>=_:'''`",
+          "        `,/T/rLC13f}C{iF|vv(((7J)J|i{{iiiiFiiF(((7((FFFii|7i3t[ee17!_''':_::''''':::_=><r!,-.-.`      ``.`-......-.`...--'':___,_::,,,,,,,^,^,,^;;>=,,",
+          "        .,/L*r?{l3}}}{ii7)v7|7(J|F{f}}CCCC{i{i7|(|FFC{{{iF|Fi{CiCFT+_''::,__:''::::_,=><<cr_.`       `````````` ``..`..```````...-'''''',,,_,__:^>><=,",
+          " `.``.``.,*L**/|ttII}C{i|))7(7(7|F{CC}C}}f}CiF||(((|||FFiF({fI3tuIJ!:-.--''--...`..`-_>!<!r>-         `` `        ``-.-.-````.`.....-'':--',,^^,:^<><^",
+          ".z/zz?zz/LJ(7JTJ{f}C{iF|7vv7F(JJ(Fi}}fff}}CiF|7J))))vT)J))7FI3f11f(vs?z/zz?LsTLTT)J7(|i)L/=-                        `..''--. `.......-_:,^,''^=,_:,;;>",
+          "C]22E2]2a]y5Znu3CCiiFF|7Js?)7(JJJ))7(FFFFFF(7J7JJ)))))vvT)|}fC}}I3nxaa]2ESwqk66669dd9hh]L'                `      `    ``.''''-- ```.`.'_^,_^,:_^^,'...",
+          "pqkqqwqqwEaYYoo[3}i{{FF|JTs)77JJ)J777Jvv))J777777J)vvTvv)(iCf331ueZxa2Swk66hhh9hh99666hX[,                 `  `` `  ``` ``.::'_'```  `.-',^^_=,:__'_,-",
+          "bnneeeenn[[uut1If}C{iF|(vTsvJJ))))J7J((J)JJ((777J)v)v)))J(i}3IfI311tueeoZZYjxjjjyyy]]]yhMS3;`                              `---`...`.   `.'^;=,__=_::,",
+          "p[nnn[een[utl13I}{{F|(7)vLsv7|||(J)J7(||(77777(7J)vvvTvv)({fIfI31luu[eoeoZ5xxjxxYjjya]yjSR@9C=                                  ```--``   `.:^=__^,'_^",
+          "4[ullltttl133If}C{|7J))vLssJF{iF(()J7(77(7JJ777JJJJ)JJJJ(F}1IfI1tlu[no55xjy]]]a]]2ESEEa]]ajpmn=                                    ````     `._,^,_:-:",
+          "Ptt11IIfIf}C{CC{{{iFF(7JvLLJFiFF(()77777((7((((7(Fi{{CC{{{fIfffI1t[neoZoZZoooZ55Y555Zoooooeoqe+                                       `       `.'^=_:-",
+          "wfIIffIfIf}fff}C{{{i||77JvT7||F|7J(FF|((||7(7(((iC}}{}fCCiC333f}fff33IIII1ttt1tttttt1tt1311]PL`                                                  .:_-'",
+          "qI3tt133If}fC}If{{{CC{FJ)Tv7(77JJ7((|FF|(7J((((|iCI3111ICii{i}fI31ltlllu[neoZeennnen[en[utop}'                                 `                   -'-",
+          "P1fF{31I3IIffC}IICiFJsLvTTv7|((7((v/?)|((((((|(||FF|)*z7||(F}3333tuttlll[eeZ55oZZZ5ZZ5Y5e5bn_                                 ```` `               `''",
+          "hut3Itt133Iff}}fIfCiF|(J)vv7Fi{i|(vLLT777(7(((7J))vvs??T7(|{3nYy]EwwwwwqP6h6666hh666P6Pqqk2r`                                  ` ````              .-.",
+          "4[eZeut11I3IIf}ffffffC{F(J)v)J)Lz//z/*****z???LLTss?zzcrrr**s7C3ttllltllltlt1333IIf}C{iFiic.                                      `               `.-.",
+          "p[uult13t1II3I}}}f}}C{F||7))))vTvv)v)J7(7(((|i{C{{i{{iF|JvTvTzr;======^^^;=;=^,,,_____,,>;.                                                        .--",
+          "p[[[ull1ttt131Ifff}}}}CF77))77J)vTv))JJJJ7(77(((Fii{{C{{7)J7(7s!;;;>;>>>>;>>><+<++!++<<!>.                                                        `-'-",
+          "Gnn[nuul111t1113II3If}Ci|())J7JTLTTvTvJ)7(||((FiC}}}C}}Ci(7J(7Tr;;>>>>>><>>><++!!!!!++!c_`                                                          . ",
+          "Oee[[[utlttt1tt11II1f}}{F7J))JJTLTvTTT)J7(||||i{{ii{{C}}Ci(7FFT!=^^^^^^^=^^^=^===;===^==-                                                             ",
+          "Vuu[uuluullt1ltt1113f}}{i|JT)vvTv)vv)J|i{}}fff}}}C{iiC{CCi(7FF)!_'-''''':_^,^_:::__,,,^:`                                                             ",
+          "d1tt1t1III3IIIfIIfIf}C}CF|7J)JJ)Tv)vJJ({ftnn[n[[n[tfCC}f}i7J77Lc;^^====;>;><<>;;>>>>>><>-                                                             ",
+          "Veenenn[u[[[u[ult1fII}}{{i()J(|7Jvv)))7{loZYYxxjj5otf{{i()Tv))sc;,,,,=;;>><<<+<<<<<<>>>r=`                                       `                    ",
+          "2kkkkqkkqqwwSwEy5tCFiFF|(7)v|F{{iF|F(7J){lYa]]]ajZu}F(7J)vTLvJsc>>;;^;;<++!!+!!rrrr+<;>!;-                                      ```  ``               ",
+          ">}}CC}CCCC{{{iiiF77iCCC}{|(|{f}}{i{{i|()LLL?z///?LTJ77JJ))vvJJs!^::_,,^=;><><<<>><<<<><r=`                                          `  `              ",
+          " '-''-- -:::::^*|}IfIffCCF7F}}C}C{{{iiF(|F7c,''_c)|F||(|7)vv77s!_.`-__,_--___:--..-_<!!**:                                      `                     ",
+          "zCC}C{(?>'`   :/{IIIfCff{i7FC}C{{}{i{F||(|i|)LLT(i{{FiF|(JvTJ7Lr_-.'____-.____.```._<c!rs<`                                    ````   `               ",
+          "eulult3{s=`   :z}1I}CC}C{|7({{{i{{C{{CCiFiCItuuut3fCC{{i(Jvv77Tc,--',,^,-.____-`  .^+/L7Fv_                                           ``.``           ",
+          "Y55ooeuFr-    `^(o]2ESaxZ[tlexyaya]]]a]jY5ZoZY5YYxyyyxY5e[lttCv+_'':,;=,..'_,'````.:+)1Ze(                                            .---`           "
         ],
         "asciiColors": [
           [
@@ -11519,7 +11497,13 @@
             "#191919",
             "#1d1d1d"
           ]
-        ]
+        ],
+        "accentColor": "#00ffff",
+        "animationType": "typewriter",
+        "animationPreviewKey": 3,
+        "brightness": -55,
+        "animationDuration": 3000,
+        "animationDelay": 100
       },
       "locked": false,
       "visible": true,
@@ -11530,82 +11514,21 @@
       "widgetId": "terminal-info",
       "name": "Terminal-info Widget",
       "position": {
-        "x": 296,
-        "y": 106
+        "x": 280,
+        "y": 344
       },
       "size": {
         "width": 504,
         "height": 280
       },
-      "config": {},
+      "config": {
+        "animationType": "typewriter",
+        "animationPreviewKey": 6
+      },
       "locked": false,
       "visible": true,
       "zIndex": 3,
       "instanceId": "widget_1788194418528_2"
-    },
-    {
-      "widgetId": "languages",
-      "name": "Languages Widget",
-      "position": {
-        "x": 0,
-        "y": 402
-      },
-      "size": {
-        "width": 536,
-        "height": 160
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 4,
-      "instanceId": "widget_1788194418528_3"
-    },
-    {
-      "widgetId": "footer",
-      "name": "Footer Widget",
-      "position": {
-        "x": 0,
-        "y": 578
-      },
-      "size": {
-        "width": 800,
-        "height": 50
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1788194418528_4"
-    },
-    {
-      "widgetId": "tech-stack",
-      "name": "Tech-stack Widget",
-      "position": {
-        "x": 544,
-        "y": 402
-      },
-      "size": {
-        "width": 240,
-        "height": 160
-      },
-      "config": {
-        "selectedTechs": [
-          "js",
-          "ts",
-          "html",
-          "css",
-          "py",
-          "rust",
-          "go",
-          "cpp"
-        ],
-        "theme": "dark",
-        "perLine": 4
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1788194418528_5"
     },
     {
       "instanceId": "widget_1788194717613",
@@ -11613,7 +11536,7 @@
       "name": "Contribution-snake Widget",
       "position": {
         "x": 0,
-        "y": 644
+        "y": 632
       },
       "size": {
         "width": 800,
@@ -11623,6 +11546,50 @@
       "locked": false,
       "visible": true,
       "zIndex": 7
+    },
+    {
+      "instanceId": "widget_1788195552759",
+      "widgetId": "codeweb-hero-orbit",
+      "name": "Codeweb-hero-orbit Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 296
+      },
+      "config": {
+        "lockAspectRatio": false,
+        "animationType": "slide-up",
+        "animationPreviewKey": 2,
+        "subtitle": "Software Quality Assurance Engineer",
+        "title": "ISHTEUK AHMED JOY",
+        "tags": [
+          "Learner"
+        ],
+        "staticMode": false
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "widget_1788195679502",
+      "widgetId": "profile-trophy",
+      "name": "Profile-trophy Widget",
+      "position": {
+        "x": 0,
+        "y": 898
+      },
+      "size": {
+        "width": 800,
+        "height": 200
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
     }
   ],
   "globalStyles": {
