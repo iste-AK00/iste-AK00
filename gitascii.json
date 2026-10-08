@@ -11531,23 +11531,6 @@
       "instanceId": "widget_1788194418528_2"
     },
     {
-      "instanceId": "widget_1788194717613",
-      "widgetId": "contribution-snake",
-      "name": "Contribution-snake Widget",
-      "position": {
-        "x": 0,
-        "y": 528
-      },
-      "size": {
-        "width": 800,
-        "height": 250
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 7
-    },
-    {
       "instanceId": "widget_1788195552759",
       "widgetId": "codeweb-hero-orbit",
       "name": "Codeweb-hero-orbit Widget",
@@ -11589,7 +11572,7 @@
   "templateId": "native",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791440191064_xlr8r",
-    "updatedAt": "2026-10-08T06:16:34.326Z"
+    "revision": "rev_1791440259726_z9um7",
+    "updatedAt": "2026-10-08T06:17:45.419Z"
   }
 }
