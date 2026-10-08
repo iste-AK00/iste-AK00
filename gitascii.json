@@ -6,7 +6,7 @@
       "name": "Ascii-art Widget",
       "position": {
         "x": 0,
-        "y": 328
+        "y": 232
       },
       "size": {
         "width": 280,
@@ -11515,7 +11515,7 @@
       "name": "Terminal-info Widget",
       "position": {
         "x": 280,
-        "y": 344
+        "y": 248
       },
       "size": {
         "width": 504,
@@ -11536,7 +11536,7 @@
       "name": "Contribution-snake Widget",
       "position": {
         "x": 0,
-        "y": 632
+        "y": 528
       },
       "size": {
         "width": 800,
@@ -11557,7 +11557,7 @@
       },
       "size": {
         "width": 800,
-        "height": 296
+        "height": 232
       },
       "config": {
         "lockAspectRatio": false,
@@ -11587,5 +11587,9 @@
     "templateStyle": "native"
   },
   "templateId": "native",
-  "profileSlug": "default"
+  "profileSlug": "default",
+  "metadata": {
+    "revision": "rev_1791440126721_frwhn",
+    "updatedAt": "2026-10-08T06:15:31.439Z"
+  }
 }
