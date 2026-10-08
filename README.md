@@ -1,7 +1,5 @@
-<a href="https://gitascii.com">
-  <img
-    src="https://gitascii.com/api/iste-AK00?v=1788196099407"
-    alt="GitAscii Widget"
-    width="100%"
-  />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iste-ak00/iste-ak00/gitascii/profiles/default/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iste-ak00/iste-ak00/gitascii/profiles/default/light.svg">
+  <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/iste-ak00/iste-ak00/gitascii/profiles/default/dark.svg" width="100%">
+</picture>
